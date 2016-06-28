@@ -1,3 +1,6 @@
+
+// The maze itself and routines to check where the walls are
+
 //== Maze ==
 byte maze[][2] = {
   {B11111111, B11110111},

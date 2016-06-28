@@ -1,3 +1,6 @@
+
+// Handles the pushbuttons
+
 byte upPin = 3;
 byte downPin = 4;
 byte leftPin = 6;

@@ -1,3 +1,6 @@
+
+// Prints variables to Serial Monitor
+
 unsigned long timeToDebug;
 
 void Debug(String label, int value)

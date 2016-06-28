@@ -1,3 +1,6 @@
+
+// Where all the sounds come from
+
 #include "pitches.h"
 
 byte tonePin = 2; // Which digital pin the beeper is attached to

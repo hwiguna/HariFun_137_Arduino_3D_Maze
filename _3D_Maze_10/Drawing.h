@@ -1,4 +1,5 @@
-//== 3D calculations ==
+
+// Magic where the fake 3D happens
 
 float ratio;
 u8g_uint_t shift;

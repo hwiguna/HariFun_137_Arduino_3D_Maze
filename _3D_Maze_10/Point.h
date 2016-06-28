@@ -1,3 +1,6 @@
+
+// Handy way to pass around X and Y as one variable
+
 #ifndef Point_h
 #define Point_h
 

@@ -1,4 +1,6 @@
-// Arduino 3D Maze v0.7 by Hari Wiguna, 2016
+
+// Arduino 3D Maze v0.10 by Hari Wiguna, 2016
+
 // v0.4 - Draws real maze
 // v0.5 - Move forward
 // v0.6 - Buttons
@@ -15,11 +17,11 @@ U8GLIB_PCD8544 u8g(13, 11, 9, 8, 10); // SPI Com: SCK = 13, MOSI = 11, CS = 9, A
 u8g_uint_t screenWidth, screenHeight;
 u8g_uint_t screenHalfWidth, screenHalfHeight;
 
-//== See other tabs above... ==
+//== See tabs above... ==
 #include "Point.h" // Handy way to pass around X and Y as one variable
 #include "Debug.h" // Prints variables to Serial Monitor
 #include "Maze.h"  // The maze itself and routines to check where the walls are
-#include "Sound.h" // Where the beep comes from
+#include "Sound.h" // Where all the sounds come from
 #include "Buttons.h" // Handles the pushbuttons
 #include "Drawing.h" // Magic where the fake 3D happens
 
